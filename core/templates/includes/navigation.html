@@ -19,8 +19,8 @@
                 <li class="nav-item">
                     <a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
                     <div class="search-bar">
-                        <input type="text" class="form-control border-0 shadow-none" placeholder="Search here">
-                        <button type="button" class="close" aria-label="Close">
+                        <input type="text" class="form-control border-0 shadow-none" placeholder="Ara..">
+                        <button type="button" class="close" aria-label="Kapat">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -35,34 +35,34 @@
                         <a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="icon feather icon-bell"></i><span class="badge bg-danger"><span class="sr-only"></span></span></a>
                         <div class="dropdown-menu dropdown-menu-right notification">
                             <div class="noti-head">
-                                <h6 class="d-inline-block m-b-0">Notifications</h6>
+                                <h6 class="d-inline-block m-b-0">Bildirimler</h6>
                                 <div class="float-right">
-                                    <a href="#!" class="m-r-10">mark as read</a>
-                                    <a href="#!">clear all</a>
+                                    <a href="#!" class="m-r-10">okundu olarak işaretle</a>
+                                    <a href="#!">tümünü temizle</a>
                                 </div>
                             </div>
                             <ul class="noti-body">
                                 <li class="n-title">
-                                    <p class="m-b-0">NEW</p>
+                                    <p class="m-b-0">Yeni</p>
                                 </li>
                                 <li class="notification">
                                     <div class="media">
                                         <img class="img-radius" src="/static/assets/images/user/avatar-1.jpg" alt="Generic placeholder image">
                                         <div class="media-body">
-                                            <p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
-                                            <p>New ticket Added</p>
+                                            <p><strong>Hüsrev Çalışkan</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 dakika</span></p>
+                                            <p>Yeni etiket eklendi</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="n-title">
-                                    <p class="m-b-0">EARLIER</p>
+                                    <p class="m-b-0">Eski</p>
                                 </li>
                                 <li class="notification">
                                     <div class="media">
                                         <img class="img-radius" src="/static/assets/images/user/avatar-2.jpg" alt="Generic placeholder image">
                                         <div class="media-body">
-                                            <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
-                                            <p>Prchace New Theme and make payment</p>
+                                            <p><strong>Muharrem Yılmaz</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 dakika</span></p>
+                                            <p>Yeni bir tema al ve ücretini öde</p>
                                         </div>
                                     </div>
                                 </li>
@@ -70,8 +70,8 @@
                                     <div class="media">
                                         <img class="img-radius" src="/static/assets/images/user/avatar-1.jpg" alt="Generic placeholder image">
                                         <div class="media-body">
-                                            <p><strong>Sara Soudein</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 min</span></p>
-                                            <p>currently login</p>
+                                            <p><strong>Nalan Muzaffer</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 dakika</span></p>
+                                            <p>şu an aktif</p>
                                         </div>
                                     </div>
                                 </li>
@@ -79,14 +79,14 @@
                                     <div class="media">
                                         <img class="img-radius" src="/static/assets/images/user/avatar-2.jpg" alt="Generic placeholder image">
                                         <div class="media-body">
-                                            <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
-                                            <p>Prchace New Theme and make payment</p>
+                                            <p><strong>Yusuf Müdür</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 dakika</span></p>
+                                            <p>Yeni bir tema al ve ücretini öde</p>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                             <div class="noti-footer">
-                                <a href="#!">show all</a>
+                                <a href="#!">hepsini göster</a>
                             </div>
                         </div>
                     </div>
@@ -102,12 +102,12 @@
                                 <span>
                                     {{ request.user.username }}
                                 </span>
-                                <a href="{% url 'logout' %}" class="dud-logout" title="Logout">
+                                <a href="{% url 'logout' %}" class="dud-logout" title="Çıkış yap">
                                     <i class="feather icon-log-out"></i>
                                 </a>
                             </div>
                             <ul class="pro-body">
-                                <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i> Profile - {{ request.user.username }} </a></li>
+                                <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i> Profil - {{ request.user.username }} </a></li>
                             </ul>
                         </div>
                     </div>
