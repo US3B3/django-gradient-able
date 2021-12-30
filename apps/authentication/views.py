@@ -17,8 +17,8 @@ def login_view(request):
     if request.method == "POST":
 
         if form.is_valid():
-            username = form.cleaned_data.get("kullanıcı adı")
-            password = form.cleaned_data.get("şifre")
+            username = form.cleaned_data.get("username")
+            password = form.cleaned_data.get("password")
             user = authenticate(username=username, password=password)
             if user is not None:
                 login(request, user)
@@ -39,8 +39,8 @@ def register_user(request):
         form = SignUpForm(request.POST)
         if form.is_valid():
             form.save()
-            username = form.cleaned_data.get("kullanıcı adı")
-            raw_password = form.cleaned_data.get("şifre")
+            username = form.cleaned_data.get("username")
+            raw_password = form.cleaned_data.get("password")
             user = authenticate(username=username, password=raw_password)
 
             msg = 'Kullanıcı oluşturuldu - lütfen <a href="/login">giriş yapınız.</a>.'
