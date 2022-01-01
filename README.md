@@ -17,7 +17,7 @@ Açık kaynak kodlu **[Django Dashboard](https://appseed.us/admin-dashboards/dja
 
 <br />
 
-> Links
+> Bağlantılar
 
 - [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able) - Ürün sayfası(İng)
 - [Gradient Able Django](https://django-gradient-able.appseed-srv1.com/) - Canlı Demo(İng)
