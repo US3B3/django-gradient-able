@@ -228,6 +228,6 @@ Serving on http://localhost:8001
 <br />
 
 ---
-[muhammedy.com](https://muhammedy.com) - Bu çalışma Muhammed Yıldırım (US3B3) **Github** tarafından yapılmıştır. 
+[muhammedy.com](https://muhammedy.com) - Bu çalışma Muhammed Yıldırım (US3B3) **github.com/US3B3** tarafından yapılmıştır. 
 <br />
 [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able) - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
