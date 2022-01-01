@@ -1,197 +1,198 @@
 # [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able)
 # [TÜRKÇE](https://muhammedy.com/)
 
-Açık kaynak kodlu **[Django Dashboard](https://appseed.us/admin-dashboards/django)** [AppSeed](https://github.com/app-generator/django-gradient-able) tarafından oluşturulan Gradient Able Django temasını Türkçeleştirme çalışması. **[Gradient Able](https://appseed.us/admin-dashboards/django-gradient-able)** Bootstrap 4 Free/Lite Admin Template is a complete solution for your dashboard creation. **Gradient Able** stands out from the crowd with an elegant look that combines soft gradient colors with well-suited typography and great cards and graphics. 
+Açık kaynak kodlu **[Django Dashboard](https://appseed.us/admin-dashboards/django)** [AppSeed](https://github.com/app-generator/django-gradient-able) tarafından oluşturulan Gradient Able Django temasını Türkçeleştirme çalışması. **[Gradient Able](https://appseed.us/admin-dashboards/django-gradient-able)** Bootstrap 4 Ücretsiz/Lite Yönetici Şablonu, pano oluşturmanız için eksiksiz bir çözümdür. Gradient Able, yumuşak degrade renkleri çok uygun tipografi ve harika kartlar ve grafiklerle birleştiren zarif bir görünümle kalabalığın arasından sıyrılıyor. 
 
 <br />
 
-> Features
+> Özellikler
 
-- `Up-to-date dependencies`: **Django 3.2.6 LTS**
-- UI-Ready app, SQLite Database, Django Native ORM
-- Modular design, clean code-base
-- Session-Based Authentication, Forms validation
+- 'Güncel bağımlılıklar': **Django 3.2.6 LTS**
+- UI-Ready uygulaması, SQLite Veritabanı, Django Native ORM
+- Modüler tasarım, temiz kod tabanı
+- Oturum Tabanlı Kimlik Doğrulama, Form doğrulama
 - `Deployment`: **Docker**, Gunicorn / Nginx
-- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+- Beni destekleme için **Github** ve [muhammedy.com](https://muhammedy.com) adresini ve..
+- [Appseed]'i desteklemek için **Github** and [Discord](https://discord.gg/fZC6hup) adreslerini ziyaret edebilirsiniz.
 
 <br />
 
 > Links
 
-- [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able) - Product page
-- [Gradient Able Django](https://django-gradient-able.appseed-srv1.com/) - LIVE Demo
+- [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able) - Ürün sayfası(İng)
+- [Gradient Able Django](https://django-gradient-able.appseed-srv1.com/) - Canlı Demo(İng)
 
 <br />
 
-## Quick Start in [Docker](https://www.docker.com/)
+## Hızlı Başlangıç [Docker](https://www.docker.com/)
 
-> Get the code
+> Kodu alın
 
 ```bash
 $ git clone https://github.com/app-generator/django-gradient-able.git
 $ cd django-gradient-able
 ```
 
-> Start the app in Docker
+> Uygulamayı Docker ile başlatın
 
 ```bash
 $ docker-compose up --build
 ```
 
-Visit `http://localhost:85` in your browser. The app should be up & running.
+`http://localhost:85` adresine tarayıcınızda gidin. Uygulama çalışıyor olacak
 
 <br />
 
-![Django Dashboard GradientAble - Open-Source template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-gradientable/master/media/django-dashboard-gradientable-screen.png)
+![Django Dashboard GradientAble - AppSeed tarafından sağlanan Açık Kaynak şablon projesi.](https://raw.githubusercontent.com/app-generator/django-dashboard-gradientable/master/media/django-dashboard-gradientable-screen.png)
 
 <br />
 
-## How to use it
+## Nasıl kullanılır
 
 ```bash
-$ # Get the code
+$ # Kodu alın
 $ git clone https://github.com/app-generator/django-gradient-able.git
 $ cd django-gradient-able
 $
-$ # Virtualenv modules installation (Unix based systems)
+$ # Virtualenv modüllerini yükleyin (Unix tabanlı sistemler[Linux, MacOS vs.])
 $ virtualenv env
 $ source env/bin/activate
 $
-$ # Virtualenv modules installation (Windows based systems)
+$ # Virtualenv modüllerini yükleyin (Windows tabanlı sistemler)
 $ # virtualenv env
 $ # .\env\Scripts\activate
 $
 $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
 $
-$ # Create tables
+$ # Tabloları oluşturun
 $ python manage.py makemigrations
 $ python manage.py migrate
 $
-$ # Start the application (development mode)
-$ python manage.py runserver # default port 8000
+$ # Uygulamayı başlatın (geliştirici modu)
+$ python manage.py runserver # varsayılan port 8000
 $
-$ # Start the app - custom port
+$ # Uygulamayı başlatın - özel port
 $ # python manage.py runserver 0.0.0.0:<your_port>
 $
-$ # Access the web app in browser: http://127.0.0.1:8000/
+$ # Tarayıcınız ile uygulamaya gidin: http://127.0.0.1:8000/
 ```
 
-> Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
+> Not: Uygulamayı kullanmak için lütfen kayıt sayfasına erişin ve yeni bir kullanıcı oluşturun. Kimlik doğrulamadan sonra, uygulama özel sayfaların kilidini açacaktır.
 
 <br />
 
-## Code-base structure
+## Kod tabanlı yapı
 
-The project is coded using a simple and intuitive structure presented bellow:
+Proje, aşağıda sunulan basit ve sezgisel bir yapı kullanılarak kodlanmıştır:
 
 ```bash
-< PROJECT ROOT >
+< PROJE KÖKÜ>
    |
-   |-- core/                               # Implements app logic and serve the static assets
-   |    |-- settings.py                    # Django app bootstrapper
-   |    |-- wsgi.py                        # Start the app in production
-   |    |-- urls.py                        # Define URLs served by all apps/nodes
+   |-- core/                               # Uygulama mantığını uygular ve statik varlıklara hizmet eder
+   |    |-- settings.py                    # Django uygulaması önyükleyici
+   |    |-- wsgi.py                        # Uygulamayı üretimde başlatın
+   |    |-- urls.py                        # Tüm apps/nodes tarafından sunulan URL'leri tanımlayın
    |    |
    |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
+   |    |    |-- <css, JS, images>         # CSS dosyaları, Javascripts dosyaları
    |    |
-   |    |-- templates/                     # Templates used to render pages
+   |    |-- templates/                     # Sayfaları oluşturmak için kullanılan şablonlar
    |         |
-   |         |-- includes/                 # HTML chunks and components
-   |         |    |-- navigation.html      # Top menu component
-   |         |    |-- sidebar.html         # Sidebar component
-   |         |    |-- footer.html          # App Footer
-   |         |    |-- scripts.html         # Scripts common to all pages
+   |         |-- includes/                 # HTML parçaları ve bileşenleri
+   |         |    |-- navigation.html      # Üst menü bileşeni
+   |         |    |-- sidebar.html         # Kenar çubuğu bileşeni
+   |         |    |-- footer.html          # Uygulama Altbilgisi
+   |         |    |-- scripts.html         # Tüm sayfalar için ortak komut dosyaları
    |         |
-   |         |-- layouts/                  # Master pages
-   |         |    |-- base-fullscreen.html # Used by Authentication pages
-   |         |    |-- base.html            # Used by common pages
+   |         |-- layouts/                  # Ana sayfalar
+   |         |    |-- base-fullscreen.html # Kimlik doğrulama sayfaları tarafından kullanılır
+   |         |    |-- base.html            # Ortak sayfalar tarafından kullanılır
    |         |
-   |         |-- accounts/                 # Authentication pages
-   |         |    |-- login.html           # Login page
-   |         |    |-- register.html        # Register page
+   |         |-- accounts/                 # Kimlik doğrulama sayfaları
+   |         |    |-- login.html           # Giriş sayfası
+   |         |    |-- register.html        # Kayıt sayfası
    |         |
-   |      index.html                       # The default page
-   |     page-404.html                     # Error 404 page
-   |     page-500.html                     # Error 404 page
-   |       *.html                          # All other HTML pages
+   |      index.html                       # Varsayılan sayfa
+   |     page-404.html                     # Hata 404 sayfası
+   |     page-500.html                     # Hata 500 sayfası
+   |       *.html                          # Diğer tüm HTML sayfaları
    |
    |-- apps/
-   |    |-- authentication/                # Handles auth routes (login and register)
+   |    |-- authentication/                # Yetkilendirme yollarını yönetir (oturum açma ve kayıt olma)
    |    |    |
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms  
+   |    |    |-- urls.py                   # Kimlik doğrulama yollarını tanımlayın  
+   |    |    |-- views.py                  # Giriş ve kayıt işlemlerini yürütür  
+   |    |    |-- forms.py                  # Kimlik doğrulama formlarını tanımlayın  
    |    |
-   |    |-- app/                           # A simple app that serve HTML files
+   |    |-- app/                           # HTML dosyaları sunan basit bir uygulama
    |         |
-   |         |-- views.py                  # Serve HTML pages for authenticated users
-   |         |-- urls.py                   # Define some super simple routes  
+   |         |-- views.py                  # Kimliği doğrulanmış kullanıcılar için HTML sayfaları sunun
+   |         |-- urls.py                   # Bazı süper basit rotalar tanımlayın 
    |
-   |-- requirements.txt                    # Development modules - SQLite storage
+   |-- requirements.txt                    # Geliştirme modülleri - SQLite depolama
    |
-   |-- .env                                # Inject Configuration via Environment
-   |-- manage.py                           # Start the app - Django default start script
+   |-- .env                                # Ortam Yoluyla Yapılandırmayı Enjekte Et
+   |-- manage.py                           # Uygulamayı başlatın - Django varsayılan başlatma komut dosyası
    |
    |-- ************************************************************************
 ```
 
 <br />
 
-> The bootstrap flow
+> Önyükleme akışı
 
-- Django bootstrapper `manage.py` uses `core/settings.py` as the main configuration file
-- `core/settings.py` loads the app magic from `.env` file
-- Redirect the guest users to Login page
-- Unlock the pages served by *app* node for authenticated users
+- Django önyükleyici "manage.py", ana yapılandırma dosyası olarak "core/settings.py"yi kullanır
+- "core/settings.py", uygulama büyüsünü ".env" dosyasından yükler
+- Konuk kullanıcıları Giriş sayfasına yönlendirin
+- Kimliği doğrulanmış kullanıcılar için *app* düğümü tarafından sunulan sayfaların kilidini açın
 
 <br />
 
-## Deployment
+## Dağıtım (Deployment)
 
-The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
+Uygulama Docker içinden yürütülecek temel bir yapılandırma ile [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), ve [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/) ayağa kalkar.
 
-### [Docker](https://www.docker.com/) execution
+### [Docker](https://www.docker.com/) uygulaması
 ---
 
-The application can be easily executed in a docker container. The steps:
+Uygulama bir liman işçisi kapsayıcısında kolayca yürütülebilir. Adımlar:
 
-> Get the code
+> Kodu alın
 
 ```bash
 $ git clone https://github.com/app-generator/django-gradient-able.git
 $ cd django-gradient-able
 ```
 
-> Start the app in Docker
+> Uygulamayı Docker'da başlatın
 
 ```bash
 $ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
 ```
 
-Visit `http://localhost:85` in your browser. The app should be up & running.
+`http://localhost:85` adresini tarayıcınızda açın. Uygulama çalışıyor olacaktır.
 
 <br />
 
 ### [Gunicorn](https://gunicorn.org/)
 ---
 
-Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.
+Gunicorn 'Green Unicorn' UNIX için bir Python WSGI HTTP Sunucusudur.
 
-> Install using pip
+> pip ile yükleyin
 
 ```bash
 $ pip install gunicorn
 ```
-> Start the app using gunicorn binary
+> Uygulamayı gunicorn binary ile başlatın
 
 ```bash
 $ gunicorn --bind=0.0.0.0:8001 core.wsgi:application
 Serving on http://localhost:8001
 ```
 
-Visit `http://localhost:8001` in your browser. The app should be up & running.
+`http://localhost:8001`adresini tarayıcınzda açın. Uygulama çalışıyor olacaktır.
 
 
 <br />
@@ -199,31 +200,34 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 ### [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/)
 ---
 
-Waitress (Gunicorn equivalent for Windows) is meant to be a production-quality pure-Python WSGI server with very acceptable performance. It has no dependencies except ones that live in the Python standard library.
+Waitress (Windows için Gunicorn eşdeğeri), çok kabul edilebilir performansa sahip, üretim kalitesinde saf Python WSGI sunucusu anlamına gelir. Python standart kitaplığında yaşayanlar dışında hiçbir bağımlılığı yoktur.
 
-> Install using pip
+> pip ile yükleyin
 
 ```bash
 $ pip install waitress
 ```
-> Start the app using [waitress-serve](https://docs.pylonsproject.org/projects/waitress/en/stable/runner.html)
+> Uygulamayı [waitress-serve](https://docs.pylonsproject.org/projects/waitress/en/stable/runner.html) ile başlatın
 
 ```bash
 $ waitress-serve --port=8001 core.wsgi:application
 Serving on http://localhost:8001
 ```
 
-Visit `http://localhost:8001` in your browser. The app should be up & running.
+`http://localhost:8001` adresini tarayıcınızda açın. Uygulama çalışıyor olacaktır.
 
 <br />
 
-## Credits & Links
+## Bağlantılar
 
-- [Django](https://www.djangoproject.com/) - The offcial website
-- [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
-- [Boilerplate Code](https://github.com/app-generator/boilerplate-code) - Index published on Github
+- [muhammedy.com](https://muhammedy.com) - Kişisel web sitem
+- [Django](https://www.djangoproject.com/) - Django web sitesi
+- [Boilerplate Code](https://appseed.us/boilerplate-code) - **AppSeed** tarafından sağlanan dizin
+- [Boilerplate Code](https://github.com/app-generator/boilerplate-code) - Github'da yayınlanan dizin
 
 <br />
 
 ---
+[muhammedy.com](https://muhammedy.com) - Bu çalışma Muhammed Yıldırım (US3B3) **Github** tarafından yapılmıştır. 
+<br />
 [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able) - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
