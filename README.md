@@ -1,5 +1,5 @@
 # [Gradient Able Django](https://appseed.us/admin-dashboards/django-gradient-able)
-# [TÜRKÇE](https://muhammedy.com/)
+# [TÜRKÇE](https://muhammedy.com/) | Türkçe Django Teması
 
 Açık kaynak kodlu **[Django Dashboard](https://appseed.us/admin-dashboards/django)** [AppSeed](https://github.com/app-generator/django-gradient-able) tarafından oluşturulan Gradient Able Django temasını Türkçeleştirme çalışması. **[Gradient Able](https://appseed.us/admin-dashboards/django-gradient-able)** Bootstrap 4 Ücretsiz/Lite Yönetici Şablonu, pano oluşturmanız için eksiksiz bir çözümdür. Gradient Able, yumuşak degrade renkleri çok uygun tipografi ve harika kartlar ve grafiklerle birleştiren zarif bir görünümle kalabalığın arasından sıyrılıyor. 
 
