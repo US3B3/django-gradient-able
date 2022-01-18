@@ -51,7 +51,7 @@ $ docker-compose up --build
 
 ```bash
 $ # Kodu alın
-$ git clone https://github.com/app-generator/django-gradient-able.git
+$ git clone https://github.com/US3B3/django-gradient-able.git
 $ cd django-gradient-able
 $
 $ # Virtualenv modüllerini yükleyin (Unix tabanlı sistemler[Linux, MacOS vs.])
