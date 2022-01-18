@@ -29,7 +29,7 @@ Açık kaynak kodlu **[Django Dashboard](https://appseed.us/admin-dashboards/dja
 > Kodu alın
 
 ```bash
-$ git clone https://github.com/app-generator/django-gradient-able.git
+$ git clone https://github.com/US3B3/django-gradient-able.git
 $ cd django-gradient-able
 ```
 
